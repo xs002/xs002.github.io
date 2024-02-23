@@ -30,15 +30,18 @@ top and bottom, 30 for the left and right*/
 }
 
 /* PROBLEM 5: Create a 10 px horizontal space between items */
+.item {
+    margin-right: 10px; 
+}
+/* PROBLEM 6: Create a 10px vertical space between rows */
 .row {
     margin-top: 10px; 
      
 }
-/* PROBLEM 6: Create a 10px vertical space between rows */
-.row {
-    margin-right: 10px; 
+img {
+    object-fit: cover;
+    width: 100%;
 }
-
 
 /* PROBLEM 7: Add 20px of space between each navigation item */
 .navbar-item {
